@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Library</title>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <h1>Movie List</h1>
+    <label>Title</label>
+    <input type="text" id="title" placeholder="Enter movie title">
+    <label>Genre</label>
+    <input type="text" id="genre" placeholder="Enter movie genre">
+    <button id="search">Search</button>
+    <button  onclick="sortByTitle()">Search By Title</button>
+    <button onclick="sortByGenre()">sort by genre</button>
+    <ul id="results"></ul>
+    <h2>The count of movies</h2>
+    <ul id="count"></ul>
+
+   
+</body>
+
+</html>
